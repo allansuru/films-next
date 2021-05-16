@@ -35,3 +35,11 @@
 .buscaLabel {
   cursor: pointer;
 }
+
+.movieContainer {
+  display: contents;
+  margin: 5px;
+}
+.movieImage {
+  display: inline;
+}

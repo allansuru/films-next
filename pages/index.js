@@ -43,8 +43,6 @@ export async function getServerSideProps() {
   const res = await fetch('http://localhost:3000/api/trending');
   const { list } = await res.json();
 
-  console.log(list)
-
   return {
     props: {
       list
