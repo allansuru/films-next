@@ -19,6 +19,7 @@ export default function MovieItem({ movie }) {
 
                 <h1>{movie.title}</h1>
                 <h4>{movie.overview}</h4>
+                <p>Nota: {movie.vote_average}</p>
             </div>
 
 
